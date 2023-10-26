@@ -1,0 +1,35 @@
+.container {
+	max-width: 100%;
+	text-align: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.item {
+	margin: 5px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.container-logo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
