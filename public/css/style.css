@@ -61,19 +61,19 @@ img {
 
 
 @media screen and (min-width: 320px){
-    .central-container{
+    .central-container, .products-container{
         flex-direction: column;
     }
 }
 
 @media screen and (min-width: 576px){
-    .central-container{
+    .central-container, .products-container{
         flex-direction: column; 
     }
 }
 
 @media screen and (min-width: 992px){
-    .central-container{
+    .central-container, .products-container{
         flex-direction: row; 
     }
 }
