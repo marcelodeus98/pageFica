@@ -27,6 +27,10 @@ app.get('/download_app', (req, res) => {
     res.render('sign_it');
 });
 
+app.get('/assine_ja', (req, res) => {
+    res.render('signature');
+});
+
 // Connect server
 app.listen(PORT, (err) => {
     if(err){
