@@ -1,11 +1,12 @@
 .footer-container{
-    max-width: 100%;
+    width: 100%;
 	display: flex;
 	text-align: center;
     font-family: 'DM Sans', sans-serif;
     color: black;
     background-color: chartreuse;
     padding: 2rem;
+    margin: 0;
 }
 
 .row{
@@ -15,4 +16,6 @@
 .footer-item{
     flex: 1;
 	text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
