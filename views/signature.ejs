@@ -1,8 +1,25 @@
-<%- include ('./partials/header.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/navbar.css">
+        <link rel="stylesheet" href="/css/signature.css">
+        <link rel="stylesheet" href="/css/footer.css">
+
+        <title>Fica Company - Página Oficial</title>
+
+    </head>
+
     <body>
         <%- include ('./partials/navbar.ejs') %>
 
-        <div class="container">
+        <div class=" container-signature container-fluid mx-auto">
             <div class="card">
 
                 <form class="form-card" method="POST">
@@ -23,9 +40,11 @@
                         <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Endereço<span class="text-danger"> *</span></label> <input type="text" id="andress" name="andress" placeholder="Rua, número, bairro" onblur="validate(5)"> </div>
                     </div>
                     
-                    <div class="row justify-content-center">
-                        <div class="form-group col-sm-6"> <button type="submit" class="btn btn-success btn-style">Enviar</button> </div>
-                    </div>
+                    <center>
+                        <div class="row justify-content-center">
+                            <div class="form-group col-sm-6"> <button type="submit" class="btn btn-success btn-style">Enviar</button> </div>
+                        </div>
+                    </center>
                     
                 </form>            
             </div>

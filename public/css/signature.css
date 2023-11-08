@@ -1,13 +1,15 @@
 body{
-    color: #000;
     overflow-x: hidden;
     height: 100%;
-    background-image: url("https://c0.wallpaperflare.com/preview/636/118/480/commerce-africa-asia-australia.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://img.freepik.com/fotos-gratis/desfoque-abstrato-estudio-vazio-de-gradiente-verde-bem-use-como-modelo-de-site-de-fundo-de-relatorio-de-negocios_1258-52607.jpg?w=1480&t=st=1699471569~exp=1699472169~hmac=ef8d6d62ca6ef2e2e772a7ae0dc02879635d2ffca084eaf7d2532ac98b262cf1");
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
 
-.container{
+.container-signature{
     padding-right: 4rem;
     padding-left: 4rem;
 }
